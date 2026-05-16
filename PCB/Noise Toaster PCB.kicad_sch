@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(uuid "7be3f398-d902-4566-9ee4-0bff072cd47e")
 	(paper "A4")
 	(title_block
@@ -15,6 +15,101 @@
 		(comment 4 "Created: 2023-06-12")
 	)
 	(lib_symbols)
+	(rectangle
+		(start 73.66 15.24)
+		(end 167.64 69.85)
+		(stroke
+			(width 0.5)
+			(type dash)
+			(color 67 222 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2eb714e0-cca6-4d3d-b1c7-56bbe31ec4ce")
+	)
+	(rectangle
+		(start 236.22 135.89)
+		(end 271.78 156.21)
+		(stroke
+			(width 0.5)
+			(type dash)
+			(color 67 222 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "36befed7-90fe-44c0-b44c-b58ca0e7611c")
+	)
+	(rectangle
+		(start 231.14 135.89)
+		(end 231.14 135.89)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 157 0 1)
+		)
+		(uuid "c484eeaf-9864-4034-88dd-2efe00fb4b91")
+	)
+	(rectangle
+		(start 250.19 162.56)
+		(end 250.19 162.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "eb6230c7-01d0-41eb-aa07-1f295298fb6e")
+	)
+	(text "Voltage Controlled Oscilator"
+		(exclude_from_sim no)
+		(at 104.14 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e18c056-4766-42d2-b446-42953e0bcf20")
+	)
+	(text "intrapanel/pcb wiring"
+		(exclude_from_sim no)
+		(at 241.3 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6429cfa1-3324-4a83-b8a1-ba658ca42f19")
+	)
+	(text "color legend"
+		(exclude_from_sim no)
+		(at 238.76 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e26bf0f8-7bd6-4ff1-ac36-cf8bbb1c0c4c")
+	)
+	(text "conducting paths"
+		(exclude_from_sim no)
+		(at 241.3 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdd8ca5f-673d-4d8c-9f3c-f03f061f1162")
+	)
 	(junction
 		(at 173.99 139.7)
 		(diameter 0)
@@ -979,104 +1074,8 @@
 		)
 		(uuid "ff759444-8624-4f3e-89a3-2df3df614142")
 	)
-	(rectangle
-		(start 73.66 15.24)
-		(end 167.64 69.85)
-		(stroke
-			(width 0.5)
-			(type dash)
-			(color 67 222 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2eb714e0-cca6-4d3d-b1c7-56bbe31ec4ce)
-	)
-	(rectangle
-		(start 236.22 135.89)
-		(end 271.78 156.21)
-		(stroke
-			(width 0.5)
-			(type dash)
-			(color 67 222 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 36befed7-90fe-44c0-b44c-b58ca0e7611c)
-	)
-	(rectangle
-		(start 231.14 135.89)
-		(end 231.14 135.89)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 255 157 0 1)
-		)
-		(uuid c484eeaf-9864-4034-88dd-2efe00fb4b91)
-	)
-	(rectangle
-		(start 250.19 162.56)
-		(end 250.19 162.56)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid eb6230c7-01d0-41eb-aa07-1f295298fb6e)
-	)
-	(text "Voltage Controlled Oscilator"
-		(exclude_from_sim no)
-		(at 104.14 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e18c056-4766-42d2-b446-42953e0bcf20")
-	)
-	(text "intrapanel/pcb wiring"
-		(exclude_from_sim no)
-		(at 241.3 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6429cfa1-3324-4a83-b8a1-ba658ca42f19")
-	)
-	(text "color legend"
-		(exclude_from_sim no)
-		(at 238.76 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e26bf0f8-7bd6-4ff1-ac36-cf8bbb1c0c4c")
-	)
-	(text "conducting paths"
-		(exclude_from_sim no)
-		(at 241.3 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fdd8ca5f-673d-4d8c-9f3c-f03f061f1162")
-	)
 	(label "ARG"
 		(at 190.5 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2 2)
@@ -1087,7 +1086,6 @@
 	)
 	(label "RMP"
 		(at 137.16 76.2 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1098,7 +1096,6 @@
 	)
 	(label "G2"
 		(at 118.11 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2 2)
@@ -1109,7 +1106,6 @@
 	)
 	(label "AA"
 		(at 118.11 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2 2)
@@ -1120,7 +1116,6 @@
 	)
 	(label "ARG"
 		(at 218.44 119.38 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2 2)
@@ -1131,7 +1126,6 @@
 	)
 	(label "FO"
 		(at 218.44 80.01 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2 2)
@@ -1142,7 +1136,6 @@
 	)
 	(label "FO"
 		(at 227.33 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2 2)
@@ -1153,7 +1146,6 @@
 	)
 	(label "SQR"
 		(at 144.78 76.2 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1164,7 +1156,6 @@
 	)
 	(label "ARG"
 		(at 173.99 129.54 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1175,7 +1166,6 @@
 	)
 	(label "WNS"
 		(at 67.31 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1187,16 +1177,22 @@
 	(sheet
 		(at 133.35 152.4)
 		(size 31.75 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0647ade8-e724-4924-aa52-6cbb42374298")
 		(property "Sheetname" "Attack Release Envelope Generator"
 			(at 133.35 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,6 +1202,8 @@
 		)
 		(property "Sheetfile" "areg.kicad_sch"
 			(at 133.35 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1215,53 +1213,53 @@
 		)
 		(pin "X18" bidirectional
 			(at 157.48 152.4 90)
+			(uuid "ea68f8da-5060-49f5-92d7-808b7c6daad6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ea68f8da-5060-49f5-92d7-808b7c6daad6")
 		)
 		(pin "X19" bidirectional
 			(at 149.86 152.4 90)
+			(uuid "3ade98fd-644c-4274-87c9-3f7d1abbc131")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3ade98fd-644c-4274-87c9-3f7d1abbc131")
 		)
 		(pin "X22" bidirectional
 			(at 142.24 152.4 90)
+			(uuid "2b54e55b-ab97-4743-9eb5-a499e9df1b29")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2b54e55b-ab97-4743-9eb5-a499e9df1b29")
 		)
 		(pin "X17" bidirectional
 			(at 153.67 152.4 90)
+			(uuid "1fa888cc-62c0-466c-8a3b-2aab04a8b415")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1fa888cc-62c0-466c-8a3b-2aab04a8b415")
 		)
 		(pin "X21" bidirectional
 			(at 146.05 152.4 90)
+			(uuid "fc294f0f-47d8-4244-8f3f-8687a59f663d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fc294f0f-47d8-4244-8f3f-8687a59f663d")
 		)
 		(instances
 			(project "Noise Toaster PCB"
@@ -1274,16 +1272,22 @@
 	(sheet
 		(at 82.55 95.25)
 		(size 106.68 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3dc41d81-2fd5-4e3e-87af-deba83358964")
 		(property "Sheetname" "Front Panel"
 			(at 82.55 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1293,6 +1297,8 @@
 		)
 		(property "Sheetfile" "fp.kicad_sch"
 			(at 82.55 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1302,293 +1308,293 @@
 		)
 		(pin "X17" bidirectional
 			(at 170.18 114.3 270)
+			(uuid "f642642e-a55d-4593-87de-0c03dab925d2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f642642e-a55d-4593-87de-0c03dab925d2")
 		)
 		(pin "X18" bidirectional
 			(at 173.99 114.3 270)
+			(uuid "e6ff551f-5bdc-4d33-8174-008f83d1c437")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e6ff551f-5bdc-4d33-8174-008f83d1c437")
 		)
 		(pin "X5" bidirectional
 			(at 125.73 95.25 90)
+			(uuid "525639a7-045d-4aa7-8131-f55d4e5ee923")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "525639a7-045d-4aa7-8131-f55d4e5ee923")
 		)
 		(pin "X2" bidirectional
 			(at 121.92 95.25 90)
+			(uuid "4510af60-5c8e-4267-b3e0-84f0b8997fbc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4510af60-5c8e-4267-b3e0-84f0b8997fbc")
 		)
 		(pin "X1" bidirectional
 			(at 118.11 95.25 90)
+			(uuid "8f73f737-e35f-4b3d-935a-4ab7c692af13")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8f73f737-e35f-4b3d-935a-4ab7c692af13")
 		)
 		(pin "X6" bidirectional
 			(at 137.16 95.25 90)
+			(uuid "e40b89a4-6760-4928-8089-5f8060194450")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e40b89a4-6760-4928-8089-5f8060194450")
 		)
 		(pin "X21" bidirectional
 			(at 162.56 114.3 270)
+			(uuid "be6f624a-ffaa-4d5a-9129-ea406dc65a17")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "be6f624a-ffaa-4d5a-9129-ea406dc65a17")
 		)
 		(pin "X22" bidirectional
 			(at 158.75 114.3 270)
+			(uuid "cd98de14-5437-4b50-ad0a-3023c4676cdd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cd98de14-5437-4b50-ad0a-3023c4676cdd")
 		)
 		(pin "X19" bidirectional
 			(at 166.37 114.3 270)
+			(uuid "743cdea2-b2c5-4f62-9c78-f6a8b42f4689")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "743cdea2-b2c5-4f62-9c78-f6a8b42f4689")
 		)
 		(pin "X16" bidirectional
 			(at 134.62 114.3 270)
+			(uuid "bbd5c91c-fe72-496e-b8a2-3966e21892fc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bbd5c91c-fe72-496e-b8a2-3966e21892fc")
 		)
 		(pin "X23" bidirectional
 			(at 127 114.3 270)
+			(uuid "dd0e8f8a-f89b-4c72-846d-972221253e54")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dd0e8f8a-f89b-4c72-846d-972221253e54")
 		)
 		(pin "X20" bidirectional
 			(at 130.81 114.3 270)
+			(uuid "484f2e59-b13b-4062-8e13-d2ef8f31b437")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "484f2e59-b13b-4062-8e13-d2ef8f31b437")
 		)
 		(pin "X15" bidirectional
 			(at 138.43 114.3 270)
+			(uuid "399db355-7f73-4638-8bc6-d2e2efa64c69")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "399db355-7f73-4638-8bc6-d2e2efa64c69")
 		)
 		(pin "X4" bidirectional
 			(at 110.49 95.25 90)
+			(uuid "ff3b5082-aad7-49ce-8a05-b2b7a0e79bff")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ff3b5082-aad7-49ce-8a05-b2b7a0e79bff")
 		)
 		(pin "X3" bidirectional
 			(at 133.35 95.25 90)
+			(uuid "8fee99f6-5306-405a-8913-292b36b15686")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8fee99f6-5306-405a-8913-292b36b15686")
 		)
 		(pin "-" input
 			(at 82.55 110.49 180)
+			(uuid "0f7e561b-750a-437c-84b2-ec2fc37314e7")
 			(effects
 				(font
 					(size 2 2)
 				)
 				(justify left)
 			)
-			(uuid "0f7e561b-750a-437c-84b2-ec2fc37314e7")
 		)
 		(pin "+" output
 			(at 82.55 105.41 180)
+			(uuid "8a8b766f-6e8a-432f-904a-6efb8aa32b59")
 			(effects
 				(font
 					(size 2 2)
 				)
 				(justify left)
 			)
-			(uuid "8a8b766f-6e8a-432f-904a-6efb8aa32b59")
 		)
 		(pin "X7" bidirectional
 			(at 140.97 95.25 90)
+			(uuid "8ef4e5f6-decd-41c9-a2fa-59882c0c0118")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8ef4e5f6-decd-41c9-a2fa-59882c0c0118")
 		)
 		(pin "X9" bidirectional
 			(at 152.4 95.25 90)
+			(uuid "17a19c8c-ab05-4d40-a1a7-515245036b03")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "17a19c8c-ab05-4d40-a1a7-515245036b03")
 		)
 		(pin "X8" bidirectional
 			(at 148.59 95.25 90)
+			(uuid "210c389f-84c4-48fa-b231-2c6042d3fc23")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "210c389f-84c4-48fa-b231-2c6042d3fc23")
 		)
 		(pin "X11" bidirectional
 			(at 160.02 95.25 90)
+			(uuid "e6d4dc54-3931-45e4-8ea6-1c41091aae3a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e6d4dc54-3931-45e4-8ea6-1c41091aae3a")
 		)
 		(pin "X26" bidirectional
 			(at 110.49 114.3 270)
+			(uuid "a52e7115-c0c2-408e-80b5-223aebc0ea12")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a52e7115-c0c2-408e-80b5-223aebc0ea12")
 		)
 		(pin "X13" bidirectional
 			(at 189.23 110.49 0)
+			(uuid "4af5ff63-9fca-4bd5-9e8d-bc4367a5c54f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4af5ff63-9fca-4bd5-9e8d-bc4367a5c54f")
 		)
 		(pin "X12" bidirectional
 			(at 189.23 106.68 0)
+			(uuid "c153497b-6393-4d2d-ada7-8370623321e4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c153497b-6393-4d2d-ada7-8370623321e4")
 		)
 		(pin "X10" bidirectional
 			(at 156.21 95.25 90)
+			(uuid "915e20d4-8353-41e6-8414-15566682fcc5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "915e20d4-8353-41e6-8414-15566682fcc5")
 		)
 		(pin "X14" bidirectional
 			(at 163.83 95.25 90)
+			(uuid "70696cf0-d116-4d8b-9316-88429f3a1842")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "70696cf0-d116-4d8b-9316-88429f3a1842")
 		)
 		(pin "X25" bidirectional
 			(at 114.3 114.3 270)
+			(uuid "5b42e4ec-a360-4ad6-827c-309a2b2d90f2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5b42e4ec-a360-4ad6-827c-309a2b2d90f2")
 		)
 		(pin "X24" bidirectional
 			(at 118.11 114.3 270)
+			(uuid "a0a1a24d-d95d-46a1-9cba-d0671ba279ec")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a0a1a24d-d95d-46a1-9cba-d0671ba279ec")
 		)
 		(pin "X27" bidirectional
 			(at 106.68 114.3 270)
+			(uuid "b0cd3a1f-dd7d-4b8a-ba2f-d94c2b6e2741")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b0cd3a1f-dd7d-4b8a-ba2f-d94c2b6e2741")
 		)
 		(instances
 			(project "Noise Toaster PCB"
@@ -1601,16 +1607,22 @@
 	(sheet
 		(at 190.5 25.4)
 		(size 31.75 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3fdee3e7-d1eb-4d7e-b78f-578001cef6ab")
 		(property "Sheetname" "Voltage Controlled Low Pass Filter"
 			(at 190.5 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,6 +1632,8 @@
 		)
 		(property "Sheetfile" "vclpf.kicad_sch"
 			(at 190.5 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,63 +1643,63 @@
 		)
 		(pin "FO" bidirectional
 			(at 218.44 63.5 270)
+			(uuid "99e4c5ea-d86f-4000-ae2f-e90bebd85896")
 			(effects
 				(font
 					(size 2 2)
 				)
 				(justify left)
 			)
-			(uuid "99e4c5ea-d86f-4000-ae2f-e90bebd85896")
 		)
 		(pin "X8" bidirectional
 			(at 194.31 63.5 270)
+			(uuid "81b6d4a8-f1a2-4681-aec2-02bb90c24dae")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "81b6d4a8-f1a2-4681-aec2-02bb90c24dae")
 		)
 		(pin "X11" bidirectional
 			(at 205.74 63.5 270)
+			(uuid "f5675e73-c9a7-4150-bb69-1c6748a7dbfd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f5675e73-c9a7-4150-bb69-1c6748a7dbfd")
 		)
 		(pin "X10" bidirectional
 			(at 201.93 63.5 270)
+			(uuid "6c88aebf-c6c7-44ba-bf15-89a9120a5c0c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6c88aebf-c6c7-44ba-bf15-89a9120a5c0c")
 		)
 		(pin "X9" bidirectional
 			(at 198.12 63.5 270)
+			(uuid "d5d5a19c-a0d8-4906-9d80-75006079d637")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d5d5a19c-a0d8-4906-9d80-75006079d637")
 		)
 		(pin "X14" bidirectional
 			(at 209.55 63.5 270)
+			(uuid "05a690e8-9039-48b9-b7e9-c8d3aa1f636e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "05a690e8-9039-48b9-b7e9-c8d3aa1f636e")
 		)
 		(instances
 			(project "Noise Toaster PCB"
@@ -1698,16 +1712,22 @@
 	(sheet
 		(at 76.2 152.4)
 		(size 25.4 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "465a87be-a0e4-4719-a2f2-a0657e4419e8")
 		(property "Sheetname" "Low Frequency Oscillator"
 			(at 76.2 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,6 +1737,8 @@
 		)
 		(property "Sheetfile" "lfo.kicad_sch"
 			(at 76.2 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,43 +1748,43 @@
 		)
 		(pin "X16" bidirectional
 			(at 93.98 152.4 90)
+			(uuid "897f0246-5fe8-40ee-a354-f515803815c5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "897f0246-5fe8-40ee-a354-f515803815c5")
 		)
 		(pin "X20" bidirectional
 			(at 90.17 152.4 90)
+			(uuid "605a0b4c-2744-4716-b81c-f81c01b40662")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "605a0b4c-2744-4716-b81c-f81c01b40662")
 		)
 		(pin "X15" bidirectional
 			(at 97.79 152.4 90)
+			(uuid "676a87e4-02b6-48d7-9ff2-8954ff8f67b1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "676a87e4-02b6-48d7-9ff2-8954ff8f67b1")
 		)
 		(pin "X23" bidirectional
 			(at 86.36 152.4 90)
+			(uuid "607b9721-a9ff-4ec7-a6e3-cbaa72dae40a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "607b9721-a9ff-4ec7-a6e3-cbaa72dae40a")
 		)
 		(instances
 			(project "Noise Toaster PCB"
@@ -1775,16 +1797,22 @@
 	(sheet
 		(at 241.3 87.63)
 		(size 30.48 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "6dd5f5bc-1b9c-4908-9997-3d64c0cf1aef")
 		(property "Sheetname" "Voltage Controlled Amplifier"
 			(at 241.3 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,6 +1822,8 @@
 		)
 		(property "Sheetfile" "vca.kicad_sch"
 			(at 241.3 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1803,43 +1833,43 @@
 		)
 		(pin "ARG" bidirectional
 			(at 241.3 97.79 180)
+			(uuid "eaf43795-74a4-4ad8-aa41-14225753d33b")
 			(effects
 				(font
 					(size 2 2)
 				)
 				(justify left)
 			)
-			(uuid "eaf43795-74a4-4ad8-aa41-14225753d33b")
 		)
 		(pin "FO" bidirectional
 			(at 241.3 92.71 180)
+			(uuid "017fd879-c839-48e1-9559-565b4f86bb32")
 			(effects
 				(font
 					(size 2 2)
 				)
 				(justify left)
 			)
-			(uuid "017fd879-c839-48e1-9559-565b4f86bb32")
 		)
 		(pin "X13" bidirectional
 			(at 241.3 106.68 180)
+			(uuid "dbd72644-f409-4210-9343-b9b280636f34")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dbd72644-f409-4210-9343-b9b280636f34")
 		)
 		(pin "X12" bidirectional
 			(at 241.3 110.49 180)
+			(uuid "e6c09cdc-67c5-4298-a7b7-d54b5611c83c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e6c09cdc-67c5-4298-a7b7-d54b5611c83c")
 		)
 		(instances
 			(project "Noise Toaster PCB"
@@ -1852,16 +1882,22 @@
 	(sheet
 		(at 25.4 95.25)
 		(size 24.13 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "8163954c-0389-42ef-b929-449d078595e3")
 		(property "Sheetname" "Power Supply"
 			(at 25.4 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,6 +1907,8 @@
 		)
 		(property "Sheetfile" "ps.kicad_sch"
 			(at 25.4 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,23 +1918,23 @@
 		)
 		(pin "-" output
 			(at 49.53 110.49 0)
+			(uuid "2f67d5df-0fe8-4813-824e-a20041009344")
 			(effects
 				(font
 					(size 2 2)
 				)
 				(justify right)
 			)
-			(uuid "2f67d5df-0fe8-4813-824e-a20041009344")
 		)
 		(pin "+" input
 			(at 49.53 105.41 0)
+			(uuid "ba7208c2-5b6e-432c-a785-2a18d19a7753")
 			(effects
 				(font
 					(size 2 2)
 				)
 				(justify right)
 			)
-			(uuid "ba7208c2-5b6e-432c-a785-2a18d19a7753")
 		)
 		(instances
 			(project "Noise Toaster PCB"
@@ -1909,16 +1947,22 @@
 	(sheet
 		(at 42.545 24.765)
 		(size 14.605 37.465)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "818b46cb-815d-4132-b52d-9731333b7f1f")
 		(property "Sheetname" "White Noise Generator"
 			(at 41.91 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1928,6 +1972,8 @@
 		)
 		(property "Sheetfile" "wng.kicad_sch"
 			(at 41.91 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,13 +1983,13 @@
 		)
 		(pin "X4" bidirectional
 			(at 45.72 62.23 270)
+			(uuid "c8adeacf-bdec-41d6-a351-0302be52f62c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c8adeacf-bdec-41d6-a351-0302be52f62c")
 		)
 		(instances
 			(project "Noise Toaster PCB"
@@ -1956,16 +2002,22 @@
 	(sheet
 		(at 25.4 152.4)
 		(size 25.4 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "8b7babf3-8af2-4de0-abdc-510e7f40fd33")
 		(property "Sheetname" "Audio Amplifier"
 			(at 25.4 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,6 +2027,8 @@
 		)
 		(property "Sheetfile" "aa.kicad_sch"
 			(at 25.4 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1984,43 +2038,43 @@
 		)
 		(pin "X27" bidirectional
 			(at 35.56 152.4 90)
+			(uuid "c2a093ca-02e6-4847-971d-c78a0780f6b9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c2a093ca-02e6-4847-971d-c78a0780f6b9")
 		)
 		(pin "X24" bidirectional
 			(at 46.99 152.4 90)
+			(uuid "b46d8a5a-73a3-462f-b95b-d66c434faa53")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b46d8a5a-73a3-462f-b95b-d66c434faa53")
 		)
 		(pin "X25" bidirectional
 			(at 43.18 152.4 90)
+			(uuid "a28a7546-0479-4b1b-acb1-1e69bbf394c1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a28a7546-0479-4b1b-acb1-1e69bbf394c1")
 		)
 		(pin "X26" bidirectional
 			(at 39.37 152.4 90)
+			(uuid "e3109a1c-7abd-49c4-b66e-a0661438693f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e3109a1c-7abd-49c4-b66e-a0661438693f")
 		)
 		(instances
 			(project "Noise Toaster PCB"
@@ -2033,16 +2087,22 @@
 	(sheet
 		(at 133.35 25.4)
 		(size 25.4 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a3e9deee-1b9d-4545-a3c9-71b211642b5b")
 		(property "Sheetname" "VCO - Ramp_Square Wave Generator"
 			(at 124.46 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2052,6 +2112,8 @@
 		)
 		(property "Sheetfile" "vco_rswg.kicad_sch"
 			(at 133.35 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,53 +2123,53 @@
 		)
 		(pin "G2" bidirectional
 			(at 133.35 34.29 180)
+			(uuid "54804190-cd5d-47b3-899f-7ccdb1267127")
 			(effects
 				(font
 					(size 2 2)
 				)
 				(justify left)
 			)
-			(uuid "54804190-cd5d-47b3-899f-7ccdb1267127")
 		)
 		(pin "AA" bidirectional
 			(at 133.35 29.21 180)
+			(uuid "8804622f-ed16-440d-82bc-69c8bbcc52d9")
 			(effects
 				(font
 					(size 2 2)
 				)
 				(justify left)
 			)
-			(uuid "8804622f-ed16-440d-82bc-69c8bbcc52d9")
 		)
 		(pin "X3" bidirectional
 			(at 137.16 63.5 270)
+			(uuid "0e31118a-3c54-447b-87ad-d6697ab3b9af")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0e31118a-3c54-447b-87ad-d6697ab3b9af")
 		)
 		(pin "X7" bidirectional
 			(at 144.78 63.5 270)
+			(uuid "12df0a5d-4854-42c0-9ad8-01a40aaf9189")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "12df0a5d-4854-42c0-9ad8-01a40aaf9189")
 		)
 		(pin "X6" bidirectional
 			(at 140.97 63.5 270)
+			(uuid "d00a9d68-72e3-4dca-b05e-fed2db3eeaa1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d00a9d68-72e3-4dca-b05e-fed2db3eeaa1")
 		)
 		(instances
 			(project "Noise Toaster PCB"
@@ -2120,16 +2182,22 @@
 	(sheet
 		(at 82.55 25.4)
 		(size 25.4 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d0369b76-3398-4137-86ba-22490a5aca99")
 		(property "Sheetname" "VCO - CV Mixer and Expo Converter"
 			(at 82.55 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,6 +2207,8 @@
 		)
 		(property "Sheetfile" "vco.kicad_sch"
 			(at 82.55 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,53 +2218,53 @@
 		)
 		(pin "AA" bidirectional
 			(at 107.95 29.21 0)
+			(uuid "609025e7-d815-495d-87c0-5fd0c92eee56")
 			(effects
 				(font
 					(size 2 2)
 				)
 				(justify right)
 			)
-			(uuid "609025e7-d815-495d-87c0-5fd0c92eee56")
 		)
 		(pin "G2" bidirectional
 			(at 107.95 34.29 0)
+			(uuid "00cd5b50-e0f7-493f-a0b8-6ff112826325")
 			(effects
 				(font
 					(size 2 2)
 				)
 				(justify right)
 			)
-			(uuid "00cd5b50-e0f7-493f-a0b8-6ff112826325")
 		)
 		(pin "X1" bidirectional
 			(at 86.36 63.5 270)
+			(uuid "70916f4c-7e86-4db9-97ff-dbd641510965")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "70916f4c-7e86-4db9-97ff-dbd641510965")
 		)
 		(pin "X2" bidirectional
 			(at 90.17 63.5 270)
+			(uuid "3b60a403-1b5d-4c12-bc50-945db1aafdbe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3b60a403-1b5d-4c12-bc50-945db1aafdbe")
 		)
 		(pin "X5" bidirectional
 			(at 93.98 63.5 270)
+			(uuid "715f8c58-b906-430c-a423-14758b9c5b79")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "715f8c58-b906-430c-a423-14758b9c5b79")
 		)
 		(instances
 			(project "Noise Toaster PCB"
@@ -2209,4 +2279,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
