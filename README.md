@@ -1,24 +1,23 @@
 # MFOS Noise Toaster
 
 
-> ##### Forked from *[Sam Zeter](https://github.com/samzeter/noise-toaster)*
+> ##### Forked from *[Tom Obvious][(https://github.com/Tom-Obvious/MFOS-NoiseToaster)]*
 
 ## Status
 
-Work in progress -> Revision 0.6.1
+WIP - working out flaws from Tom's design choices
 
 ## Motivation
 
-My first project to get back to electronics and learn something new along the way.
-This repository is for the documentation of my journey to a fully functional analog synthesizer and may help other people to build one too.
-
-This is my first electronics project for a long time and I decided to build the __Music From Outher Space -__ __*Noise Toaster*__,  because of the great documentation and the book 'Make: Analog Synthesizers' by Ray Wilson.
+My first eletronics project, like, at all.
+This repository is for the documentation of the changes im currently making to the Rev 6.1 of Tom's design, to better fit with at hand materials and more modern/cheaper components.
+Components like the 2N5457 or the LM386N-4 arent exactly easy to find or cheap to buy, moving foward id like to do a circuit analysis of Ray's original circuit to determine if i can swap some pieces out for more common components that arent going out of production anytime soon 
 
 ## How to use this repository
 
 This repository contains all the files necessary for building the Noise Toaster, including the synth's PCB.  
 If you intend to create your own PCB, simply compress all the files located in the 'PCB/Gerber Files' directory into a .zip file and upload it to the PCB manufacturer of your choice.   
-In the directories 'classic design' and 'alternative design' (yet to come!) are all files to build the case of the Noise Toaster.    
+In the directories 'classic design' are all files to build the case of the Noise Toaster.    
 For the front panels, I also created PCB designs, which you can upload to a manifacturer. Furthermore, there are CAD files and technical drawings (yet to come!) in the folders.   
 The 'src' folder contains additional files which might be helpful.
 
@@ -47,16 +46,12 @@ The 'src' folder contains additional files which might be helpful.
 
 ## Usefull links and resources
 
-* [Musik From Outer Space](http://musicfromouterspace.com/)
-* [MFOS - Noise Toaster - Dokumentation](http://musicfromouterspace.com/index.php?MAINTAB=SYNTHDIY&PROJARG=NOISETOASTER/NOISETOASTER.php&VPW=1493&VPH=725)
+* [Music From Outer Space](http://musicfromouterspace.com/)
+* [MFOS - Noise Toaster - Documentation](http://musicfromouterspace.com/index.php?MAINTAB=SYNTHDIY&PROJARG=NOISETOASTER/NOISETOASTER.php&VPW=1493&VPH=725)
 * [Ray Wilson - YouTube Channel](https://www.youtube.com/@Musicfromouterspace)
 * [MFOS Noise Toaster Presentation - Video by Ray Wilson](https://www.youtube.com/watch?v=smFKx6gfOd0)
 * [Noise Toaster in action - Video by Ray Wilson](https://www.youtube.com/watch?v=qHlyuIe3wuU)
 * [Make: Analog Synthesizers by Ray Wilson](https://learning.oreilly.com/library/view/make-analog-synthesizers/9781449356200/)
-
-## For what's left TODO ...
-
-[follow the White Rabbit!](TODO.md)
 
 ---
 ![CC-BY-NC-SA](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
