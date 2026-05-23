@@ -2849,7 +2849,7 @@
 				)
 			)
 		)
-		(property "Value" "0.001 uF"
+		(property "Value" "1nF"
 			(at 180.34 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3038,7 +3038,7 @@
 		(fields_autoplaced yes)
 		(uuid "42182fa0-80a4-4624-9773-64d5a814544d")
 		(property "Reference" "R35"
-			(at 59.69 109.22 0)
+			(at 59.69 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3048,8 +3048,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7 M"
-			(at 59.69 111.76 0)
+		(property "Value" "4M7"
+			(at 59.69 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3206,7 +3206,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "100nF"
 			(at 148.59 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3786,7 +3786,7 @@
 				)
 			)
 		)
-		(property "Value" "0.001 uF"
+		(property "Value" "1nF"
 			(at 101.6 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3866,7 +3866,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7 M"
+		(property "Value" "4M7"
 			(at 168.91 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3946,7 +3946,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "100nF"
 			(at 110.49 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1788,7 +1788,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fe66529-8435-4874-8a59-8fba59411c8f")
 		(property "Reference" "R69"
-			(at 191.77 134.62 0)
+			(at 191.77 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1798,8 +1798,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 Ohm"
-			(at 191.77 137.16 0)
+		(property "Value" "10"
+			(at 191.77 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1999,7 +1999,7 @@
 		(fields_autoplaced yes)
 		(uuid "8757f27f-2833-4744-b42c-5be93868c68e")
 		(property "Reference" "C24"
-			(at 193.04 114.3 0)
+			(at 193.04 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2009,8 +2009,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.047 uF"
-			(at 193.04 116.84 0)
+		(property "Value" "47nF"
+			(at 193.04 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2090,7 +2090,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "100nF"
 			(at 114.3 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2161,7 +2161,7 @@
 		(fields_autoplaced yes)
 		(uuid "b988e10f-63c0-49a1-bac8-cd7efab464a4")
 		(property "Reference" "C25"
-			(at 168.91 117.221 0)
+			(at 168.91 117.2209 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2171,8 +2171,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 uF"
-			(at 168.91 119.761 0)
+		(property "Value" "10uF"
+			(at 168.91 119.7609 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2587,7 +2587,7 @@
 				)
 			)
 		)
-		(property "Value" "1 uF"
+		(property "Value" "1uF"
 			(at 138.43 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)

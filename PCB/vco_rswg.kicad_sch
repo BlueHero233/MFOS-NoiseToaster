@@ -3808,7 +3808,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "100nF"
 			(at 58.42 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3958,7 +3958,7 @@
 		(fields_autoplaced yes)
 		(uuid "b08384ac-d98c-4d45-a455-2bea84750144")
 		(property "Reference" "C6"
-			(at 168.91 99.06 0)
+			(at 168.91 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3968,8 +3968,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.01 uF"
-			(at 168.91 101.6 0)
+		(property "Value" "10nF"
+			(at 168.91 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

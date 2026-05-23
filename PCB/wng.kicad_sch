@@ -1545,7 +1545,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "100nF"
 			(at 129.54 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1862,7 +1862,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf125e7c-3c40-450e-bb1e-7b678bb0ee88")
 		(property "Reference" "C7"
-			(at 232.41 104.14 0)
+			(at 232.41 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1872,8 +1872,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 uF"
-			(at 232.41 106.68 0)
+		(property "Value" "100nF"
+			(at 232.41 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

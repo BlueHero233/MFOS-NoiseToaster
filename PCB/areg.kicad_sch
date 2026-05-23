@@ -2473,7 +2473,7 @@
 		(fields_autoplaced yes)
 		(uuid "21d84e93-005f-40fe-9f12-c55016c61065")
 		(property "Reference" "C18"
-			(at 41.91 121.031 0)
+			(at 41.91 121.0309 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2483,8 +2483,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7 uF"
-			(at 41.91 123.571 0)
+		(property "Value" "4u7F"
+			(at 41.91 123.5709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2649,7 +2649,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 K"
+		(property "Value" "10k"
 			(at 58.42 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2721,7 +2721,7 @@
 		(fields_autoplaced yes)
 		(uuid "7398574e-9a92-4017-8c21-222c84a91af4")
 		(property "Reference" "R50"
-			(at 40.64 91.44 0)
+			(at 40.64 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2731,8 +2731,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "820 Ohm"
-			(at 40.64 93.98 0)
+		(property "Value" "820"
+			(at 40.64 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2812,7 +2812,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150 K"
+		(property "Value" "150k"
 			(at 77.47 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2972,7 +2972,7 @@
 		(fields_autoplaced yes)
 		(uuid "a811c05a-3759-4fac-88cd-662d793102c7")
 		(property "Reference" "R54"
-			(at 128.27 147.32 0)
+			(at 128.27 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2982,8 +2982,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4,7 K"
-			(at 128.27 149.86 0)
+		(property "Value" "4k7"
+			(at 128.27 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3205,7 +3205,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 K"
+		(property "Value" "10k"
 			(at 77.47 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3286,7 +3286,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 K"
+		(property "Value" "10k"
 			(at 115.57 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3367,7 +3367,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100 K"
+		(property "Value" "100k"
 			(at 186.69 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3438,7 +3438,7 @@
 		(dnp no)
 		(uuid "f1db62ca-a39f-48db-a011-e80a52d888cf")
 		(property "Reference" "R57"
-			(at 116.84 26.67 90)
+			(at 118.11 27.178 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3447,8 +3447,8 @@
 				)
 			)
 		)
-		(property "Value" "200 Ohm"
-			(at 119.38 29.21 90)
+		(property "Value" "200"
+			(at 118.11 29.718 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3527,7 +3527,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150 K"
+		(property "Value" "150k"
 			(at 77.47 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)

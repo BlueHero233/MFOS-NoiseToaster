@@ -2193,7 +2193,7 @@
 				)
 			)
 		)
-		(property "Value" "270 K"
+		(property "Value" "270k"
 			(at 77.47 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2273,7 +2273,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "100nF"
 			(at 227.33 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2352,7 +2352,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7 K"
+		(property "Value" "4k7"
 			(at 228.6 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2548,7 +2548,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2 M"
+		(property "Value" "2M"
 			(at 27.94 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2709,7 +2709,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "75 K"
+		(property "Value" "75k"
 			(at 66.04 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2790,7 +2790,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "100nF"
 			(at 228.6 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2870,7 +2870,7 @@
 				)
 			)
 		)
-		(property "Value" "2 K"
+		(property "Value" "2k"
 			(at 133.35 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2949,7 +2949,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7 K"
+		(property "Value" "4k7"
 			(at 228.6 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3029,7 +3029,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 K"
+		(property "Value" "10k"
 			(at 127 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3197,7 +3197,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "36 K"
+		(property "Value" "36k"
 			(at 180.34 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3597,7 +3597,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd060e2d-3f6a-4b54-927d-976f199f8810")
 		(property "Reference" "R14"
-			(at 116.84 49.53 0)
+			(at 116.84 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3607,8 +3607,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100 K"
-			(at 116.84 52.07 0)
+		(property "Value" "100k"
+			(at 116.84 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
