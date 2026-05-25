@@ -2451,6 +2451,17 @@
 		)
 		(uuid "c93d0f5f-ad46-46b7-9353-b4cae006ae7e")
 	)
+	(text "Per Ray`s order, \nLine Out needs to be\na closed jack"
+		(exclude_from_sim no)
+		(at 255.778 126.746 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccb39d4a-848c-4b0e-8e7b-74832a79057d")
+	)
 	(text "VCO - Ramp_Square Wave Generator"
 		(exclude_from_sim no)
 		(at 24.13 121.92 0)
@@ -2734,7 +2745,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 135.89) (xy 255.27 135.89)
+			(xy 228.6 133.35) (xy 255.27 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2810,7 +2821,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 133.35) (xy 255.27 133.35)
+			(xy 228.6 135.89) (xy 255.27 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4150,7 +4161,7 @@
 	)
 	(hierarchical_label "X24"
 		(shape bidirectional)
-		(at 228.6 133.35 180)
+		(at 228.6 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6843,7 +6854,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 135.89 270)
+		(at 228.6 133.35 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6853,7 +6864,7 @@
 		(dnp no)
 		(uuid "ed3c1843-f7c3-4d9b-8535-eeedc37b5d8b")
 		(property "Reference" "#PWR05"
-			(at 222.25 135.89 0)
+			(at 222.25 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6864,7 +6875,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.774 135.89 90)
+			(at 223.774 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6874,7 +6885,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 135.89 0)
+			(at 228.6 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6885,7 +6896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 135.89 0)
+			(at 228.6 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6896,7 +6907,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 135.89 0)
+			(at 228.6 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
