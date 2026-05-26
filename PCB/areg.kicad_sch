@@ -904,10 +904,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NJFET_DGS"
+		(symbol "Device:Q_NJFET_DSG"
 			(pin_names
 				(offset 0)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -925,7 +924,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_NJFET_DGS"
+			(property "Value" "Q_NJFET_DSG"
 				(at 5.08 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -958,7 +957,7 @@
 					)
 				)
 			)
-			(property "Description" "N-JFET transistor, drain/gate/source"
+			(property "Description" "N-JFET transistor, drain/source/gate"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -980,7 +979,7 @@
 					)
 				)
 			)
-			(symbol "Q_NJFET_DGS_0_1"
+			(symbol "Q_NJFET_DSG_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -1.016 0.381) (xy -1.016 -0.381) (xy 0 0)
@@ -1041,7 +1040,7 @@
 					)
 				)
 			)
-			(symbol "Q_NJFET_DGS_1_1"
+			(symbol "Q_NJFET_DSG_1_1"
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
@@ -1060,10 +1059,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.334)
-					(name "G"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1078,10 +1077,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.334)
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2494,7 +2493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
 			(at 39.0652 127 0)
 			(hide yes)
 			(show_name no)
@@ -2543,7 +2542,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NJFET_DGS")
+		(lib_id "Device:Q_NJFET_DSG")
 		(at 123.19 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -2555,7 +2554,7 @@
 		(fields_autoplaced yes)
 		(uuid "34b69054-9231-4da6-8780-e7a1537b60c3")
 		(property "Reference" "Q9"
-			(at 128.27 106.68 0)
+			(at 128.27 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2566,7 +2565,7 @@
 			)
 		)
 		(property "Value" "2N5457"
-			(at 128.27 109.22 0)
+			(at 128.27 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2576,7 +2575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 128.27 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2598,7 +2597,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-JFET transistor, drain/source/gate"
 			(at 123.19 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2905,7 +2904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 167.64 52.705 0)
 			(hide yes)
 			(show_name no)
@@ -3076,7 +3075,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 261.62 67.31 0)
 			(hide yes)
 			(show_name no)

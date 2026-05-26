@@ -423,7 +423,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x05_Pin"
+		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -443,8 +443,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x05_Pin"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x06_Pin"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -475,7 +475,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x05, script generated"
+			(property "Description" "Generic connector, single row, 01x06, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -518,7 +518,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x05_Pin_1_1"
+			(symbol "Conn_01x06_Pin_1_1"
 				(rectangle
 					(start 0.8636 5.207)
 					(end 0 4.953)
@@ -566,6 +566,17 @@
 				(rectangle
 					(start 0.8636 -4.953)
 					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -625,6 +636,18 @@
 				(polyline
 					(pts
 						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
 					)
 					(stroke
 						(width 0.1524)
@@ -717,6 +740,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -882,6 +923,200 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Q_NJFET_DSG"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NJFET_DSG"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "N-JFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transistor NJFET N-JFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_NJFET_DSG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.016 0.381) (xy -1.016 -0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.397) (xy 0.254 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.27) (xy 0.254 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NJFET_DSG_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.334)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1012,236 +1247,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Simulation_SPICE:NJFET"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "NJFET"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-JFET transistor, for simulation only"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "NJFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "SHICHMANHODGES"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NJFET N-JFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "NJFET_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy -1.016 0.381) (xy -1.016 -0.381) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.397) (xy 0.254 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 -1.27) (xy 0.254 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NJFET_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.334)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1414,16 +1419,16 @@
 		(uuid "b228b8b7-79e1-40b1-9bfe-32ecb4944396")
 	)
 	(junction
+		(at 125.73 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b374be89-6720-4c30-9702-53b183949c5a")
+	)
+	(junction
 		(at 191.77 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d264528c-54c6-4564-8d64-0c14997acf3b")
-	)
-	(junction
-		(at 125.73 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dee6e06c-e596-4e3d-8a9b-d367cdb8e761")
 	)
 	(junction
 		(at 69.85 87.63)
@@ -1511,6 +1516,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 72.39) (xy 185.42 72.39)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "205d1f02-272c-4c3f-a1d3-c069e42564aa")
+	)
+	(wire
+		(pts
 			(xy 134.62 52.07) (xy 134.62 38.1)
 		)
 		(stroke
@@ -1518,6 +1533,16 @@
 			(type default)
 		)
 		(uuid "2572b28e-59aa-4aa7-8458-873710472891")
+	)
+	(wire
+		(pts
+			(xy 120.65 144.78) (xy 120.65 165.1)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "35789089-27ed-40b8-9378-78a5ea872289")
 	)
 	(wire
 		(pts
@@ -1548,6 +1573,16 @@
 			(type default)
 		)
 		(uuid "3e71032f-b738-4a84-88f7-96d59cd100c3")
+	)
+	(wire
+		(pts
+			(xy 196.85 99.06) (xy 196.85 72.39)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "412dc13c-4ce1-4c1a-9fff-c1f3f328d988")
 	)
 	(wire
 		(pts
@@ -1731,6 +1766,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 144.78) (xy 120.65 144.78)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "74f868a2-0a27-4609-95d2-158d2d43d904")
+	)
+	(wire
+		(pts
 			(xy 236.22 45.72) (xy 236.22 54.61)
 		)
 		(stroke
@@ -1778,6 +1823,16 @@
 			(type default)
 		)
 		(uuid "7f8008ee-3a9b-46bd-b4d5-477b41ac9cbd")
+	)
+	(wire
+		(pts
+			(xy 196.85 106.68) (xy 196.85 110.49)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "809520bf-cd6c-46ef-911a-405cf5136a18")
 	)
 	(wire
 		(pts
@@ -1851,7 +1906,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 73.66) (xy 199.39 73.66)
+			(xy 254 73.66) (xy 208.28 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1951,7 +2006,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 127) (xy 199.39 127)
+			(xy 130.81 127) (xy 208.28 127)
 		)
 		(stroke
 			(width 0)
@@ -2001,7 +2056,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 73.66) (xy 199.39 127)
+			(xy 208.28 73.66) (xy 208.28 127)
 		)
 		(stroke
 			(width 0)
@@ -2098,6 +2153,16 @@
 			(type default)
 		)
 		(uuid "ee5c2487-a47d-4e2e-961c-9cab03413287")
+	)
+	(wire
+		(pts
+			(xy 196.85 118.11) (xy 196.85 144.78)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "f0e6265c-3947-465c-b363-151ef27054ed")
 	)
 	(wire
 		(pts
@@ -2908,7 +2973,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NJFET")
+		(lib_id "Device:Q_NJFET_DSG")
 		(at 251.46 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -2920,7 +2985,7 @@
 		(fields_autoplaced yes)
 		(uuid "413ae408-6e24-4f78-9040-ee5c5a954c07")
 		(property "Reference" "Q8"
-			(at 256.54 90.17 0)
+			(at 256.54 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2931,7 +2996,7 @@
 			)
 		)
 		(property "Value" "2N5457"
-			(at 256.54 92.71 0)
+			(at 256.54 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2941,7 +3006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 256.54 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2963,7 +3028,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-JFET transistor, drain/source/gate"
 			(at 251.46 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2996,7 +3061,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
+		(property "Sim.Pins" "1=D 2=S 3=G"
 			(at 251.46 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3385,6 +3450,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 196.85 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c06c42f-c805-4e29-a657-d0e497c398b2")
+		(property "Reference" "C28"
+			(at 200.66 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 200.66 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+			(at 197.8152 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9febc58-1290-4406-99cb-2fbea366c649")
+		)
+		(pin "2"
+			(uuid "2e439a7d-f269-4716-991a-d35c7889248c")
+		)
+		(instances
+			(project "Noise Toaster PCB"
+				(path "/7be3f398-d902-4566-9ee4-0bff072cd47e/3fdee3e7-d1eb-4d7e-b78f-578001cef6ab"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 53.34 72.39 90)
 		(unit 1)
@@ -3541,148 +3688,6 @@
 			(project "Noise Toaster PCB"
 				(path "/7be3f398-d902-4566-9ee4-0bff072cd47e/3fdee3e7-d1eb-4d7e-b78f-578001cef6ab"
 					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 128.27 170.18 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "79ccc2aa-54c5-4eae-af86-24b51a39c5e6")
-		(property "Reference" "J7"
-			(at 128.27 172.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCLPF"
-			(at 128.27 177.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical"
-			(at 128.27 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "X11" "X11"
-			(at 123.19 175.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "X8" "X8"
-			(at 125.73 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "X10" "X10"
-			(at 128.27 175.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "X9" "X9"
-			(at 130.81 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "X14" "X14"
-			(at 133.35 175.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "581977b5-1203-4a9b-b574-2af30f506344")
-		)
-		(pin "2"
-			(uuid "36d43a16-98ed-47c5-a27b-58b31bc63a9f")
-		)
-		(pin "3"
-			(uuid "50580157-423b-4fe7-bfd1-fcf36eb91065")
-		)
-		(pin "4"
-			(uuid "9135826b-b6a5-4447-9a91-bc1882fcbf4d")
-		)
-		(pin "5"
-			(uuid "53da092f-b3f4-4d49-9067-88b0ec63c881")
-		)
-		(instances
-			(project "Noise Toaster PCB"
-				(path "/7be3f398-d902-4566-9ee4-0bff072cd47e/3fdee3e7-d1eb-4d7e-b78f-578001cef6ab"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3919,6 +3924,242 @@
 			(project "Noise Toaster PCB"
 				(path "/7be3f398-d902-4566-9ee4-0bff072cd47e/3fdee3e7-d1eb-4d7e-b78f-578001cef6ab"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 196.85 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a8eff039-1d6d-48a5-8a09-a41b0688662e")
+		(property "Reference" "VCF1"
+			(at 203.2 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3 M"
+			(at 200.66 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 195.072 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3339a102-ac41-4d40-8bac-f2b597d14683")
+		)
+		(pin "2"
+			(uuid "cb1e3707-c265-4e54-a796-50c55ddadf13")
+		)
+		(instances
+			(project "Noise Toaster PCB"
+				(path "/7be3f398-d902-4566-9ee4-0bff072cd47e/3fdee3e7-d1eb-4d7e-b78f-578001cef6ab"
+					(reference "VCF1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 125.73 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b3f551a9-2c4d-48c5-ac9e-46986c854ae4")
+		(property "Reference" "J7"
+			(at 136.144 169.672 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LPF"
+			(at 126.746 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+			(at 125.73 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 125.73 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "X11" "X11"
+			(at 123.19 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "X8" "X8"
+			(at 125.73 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "X10" "X10"
+			(at 128.27 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "X9" "X9"
+			(at 130.81 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "X14" "X14"
+			(at 133.35 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VCF" "VCF"
+			(at 120.65 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "5f34eb7c-1be2-407f-bd9a-a822cc2a25f2")
+		)
+		(pin "2"
+			(uuid "0043be52-5983-4182-a452-ce8b9d0ce3fb")
+		)
+		(pin "3"
+			(uuid "74b2dcd7-64df-4562-aff4-7cc0c2b71343")
+		)
+		(pin "4"
+			(uuid "7f9c80f9-cd62-4be5-9293-cba6c122c0aa")
+		)
+		(pin "5"
+			(uuid "9f63218f-3ef8-4e59-b0de-2637284ce680")
+		)
+		(pin "6"
+			(uuid "29010f6d-41fa-4e68-ae11-81e2e5896421")
+		)
+		(instances
+			(project "Noise Toaster PCB"
+				(path "/7be3f398-d902-4566-9ee4-0bff072cd47e/3fdee3e7-d1eb-4d7e-b78f-578001cef6ab"
+					(reference "J7")
 					(unit 1)
 				)
 			)
