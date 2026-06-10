@@ -423,7 +423,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x04_Pin"
+		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -434,7 +434,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -443,7 +443,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04_Pin"
+			(property "Value" "Conn_01x05_Pin"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -475,7 +475,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
+			(property "Description" "Generic connector, single row, 01x05, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -518,7 +518,18 @@
 					)
 				)
 			)
-			(symbol "Conn_01x04_Pin_1_1"
+			(symbol "Conn_01x05_Pin_1_1"
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(rectangle
 					(start 0.8636 2.667)
 					(end 0 2.413)
@@ -561,6 +572,18 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -612,7 +635,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 5.08 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -630,7 +653,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -648,7 +671,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -666,7 +689,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
+					(at 5.08 -2.54 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -676,6 +699,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1049,6 +1090,28 @@
 					)
 				)
 			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=E 2=B 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "NPN Transistor"
 				(at 0 0 0)
 				(show_name no)
@@ -1074,34 +1137,22 @@
 			(symbol "2N3904_0_1"
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
 					)
 					(stroke
 						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -1119,9 +1170,35 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "2N3904_1_1"
 				(polyline
 					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -1131,8 +1208,6 @@
 						(type outline)
 					)
 				)
-			)
-			(symbol "2N3904_1_1"
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
@@ -1151,9 +1226,9 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at -5.08 0 0)
-					(length 5.715)
+					(length 2.54)
 					(name "B"
 						(effects
 							(font
@@ -1315,6 +1390,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdde60db-677e-46c1-9f64-db75e21b673a")
+	)
+	(junction
+		(at 237.49 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd324dd0-2745-4375-b5a0-eeaba28f50ce")
 	)
 	(junction
 		(at 124.46 165.1)
@@ -1644,6 +1725,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 20.32) (xy 237.49 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ae8761-dbd6-4e05-89d5-7b3aa824da5b")
+	)
+	(wire
+		(pts
 			(xy 137.16 83.82) (xy 152.4 83.82)
 		)
 		(stroke
@@ -1681,6 +1772,16 @@
 			(type default)
 		)
 		(uuid "62cf1c26-e36f-4f96-88d0-9e19ecd55d18")
+	)
+	(wire
+		(pts
+			(xy 237.49 22.86) (xy 233.68 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e10023-d052-4280-8b2e-353b204d0529")
 	)
 	(wire
 		(pts
@@ -2034,6 +2135,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 22.86) (xy 237.49 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd8eed34-ad5a-4a77-b9e0-abc32060c387")
+	)
+	(wire
+		(pts
 			(xy 177.8 34.29) (xy 177.8 38.1)
 		)
 		(stroke
@@ -2214,6 +2325,17 @@
 			)
 		)
 	)
+	(hierarchical_label "SYNC"
+		(shape input)
+		(at 237.49 20.32 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a79f243-ee27-4de2-8ffc-a561359e5383")
+	)
 	(hierarchical_label "X1"
 		(shape bidirectional)
 		(at 63.5 29.21 90)
@@ -2268,6 +2390,17 @@
 			(justify left)
 		)
 		(uuid "cda056a5-b3c8-4958-930b-c449975537d7")
+	)
+	(hierarchical_label "X6"
+		(shape bidirectional)
+		(at 233.68 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f681c649-d8af-4bc7-97ca-009f16c202b0")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3326,7 +3459,29 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 134.62 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 134.62 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
 			(at 134.62 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -3437,7 +3592,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
+		(lib_id "Connector:Conn_01x05_Pin")
 		(at 252.73 27.94 0)
 		(mirror y)
 		(unit 1)
@@ -3460,7 +3615,7 @@
 			)
 		)
 		(property "Value" "VCO"
-			(at 247.65 19.05 0)
+			(at 247.65 17.018 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3469,7 +3624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 252.73 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -3491,7 +3646,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "Generic connector, single row, 01x05, script generated"
 			(at 252.73 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -3503,7 +3658,7 @@
 			)
 		)
 		(property "Wert2" "VC Mixer Expo"
-			(at 252.73 21.59 0)
+			(at 252.73 19.558 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3552,6 +3707,16 @@
 				)
 			)
 		)
+		(property "X6" "X6"
+			(at 256.54 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb08c4f7-32b1-4515-9fe2-af1348008a7d")
 		)
@@ -3563,6 +3728,9 @@
 		)
 		(pin "4"
 			(uuid "d8a32b87-5740-41bd-b1dc-29c599334058")
+		)
+		(pin "5"
+			(uuid "c815168f-eb59-4622-811c-f767b759d446")
 		)
 		(instances
 			(project "Noise Toaster PCB"
@@ -3748,7 +3916,29 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 114.3 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 114.3 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
 			(at 114.3 173.99 0)
 			(hide yes)
 			(show_name no)

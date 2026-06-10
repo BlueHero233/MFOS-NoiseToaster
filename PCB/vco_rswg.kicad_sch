@@ -423,7 +423,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x03_Pin"
+		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -434,7 +434,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -443,7 +443,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_Pin"
+			(property "Value" "Conn_01x02_Pin"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -475,7 +475,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
+			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -518,18 +518,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "Conn_01x02_Pin_1_1"
 				(rectangle
 					(start 0.8636 0.127)
 					(end 0 -0.127)
@@ -550,18 +539,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(polyline
@@ -589,7 +566,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -607,7 +584,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 -2.54 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -617,24 +594,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1531,12 +1490,6 @@
 		(color 0 0 0 0)
 		(uuid "f1493361-6bed-41c8-b335-9c05d8fa3f2d")
 	)
-	(junction
-		(at 152.4 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f64ab0da-d394-4708-8981-a9d1fbe24a32")
-	)
 	(wire
 		(pts
 			(xy 31.75 29.21) (xy 31.75 40.64)
@@ -1609,7 +1562,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 125.73) (xy 151.13 146.05)
+			(xy 151.13 121.92) (xy 151.13 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1669,7 +1622,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 125.73) (xy 151.13 125.73)
+			(xy 127 121.92) (xy 151.13 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1799,16 +1752,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 97.79) (xy 127 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "513dabc5-9482-4dbd-b68e-57be5a7ea5a9")
-	)
-	(wire
-		(pts
 			(xy 76.2 143.51) (xy 88.9 143.51)
 		)
 		(stroke
@@ -1859,7 +1802,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 97.79) (xy 129.54 125.73)
+			(xy 127 93.98) (xy 127 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1889,7 +1832,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 97.79) (xy 124.46 118.11)
+			(xy 124.46 93.98) (xy 124.46 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2179,16 +2122,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 118.11) (xy 152.4 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9a65304-4474-4927-afbf-43b651a212b5")
-	)
-	(wire
-		(pts
 			(xy 165.1 44.45) (xy 165.1 63.5)
 		)
 		(stroke
@@ -2462,8 +2395,8 @@
 		)
 		(uuid "1482ee0e-739f-436c-816b-ccb327a8ffa1")
 	)
-	(hierarchical_label "X6"
-		(shape bidirectional)
+	(hierarchical_label "SYNC"
+		(shape output)
 		(at 152.4 88.9 90)
 		(effects
 			(font
@@ -2471,20 +2404,7 @@
 			)
 			(justify left)
 		)
-		(uuid "1f3ca092-99c6-4ab9-b8d1-c5fc4c59137a")
-		(property "Bezeichnung" ""
-			(at 154.94 87.63 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
+		(uuid "1d7ca033-b1dd-4b1d-a116-1ca261b8bc30")
 	)
 	(hierarchical_label "AA"
 		(shape bidirectional)
@@ -2769,6 +2689,127 @@
 				(path "/7be3f398-d902-4566-9ee4-0bff072cd47e/a3e9deee-1b9d-4545-a3c9-71b211642b5b"
 					(reference "U1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 127 88.9 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "105a542a-fb8b-46bc-b405-62d303373702")
+		(property "Reference" "J6"
+			(at 127 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCO"
+			(at 127 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 127 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 127 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wert2" "Ramp/Square"
+			(at 127 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "X3" "X3"
+			(at 124.46 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "X6" "X6"
+			(at 127 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "X7" "X7"
+			(at 127 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ca4bbfa-18fb-45b5-b497-fe7e675a3020")
+		)
+		(pin "2"
+			(uuid "10e172ee-0b8c-4532-bc60-58415849d39e")
+		)
+		(instances
+			(project "Noise Toaster PCB"
+				(path "/7be3f398-d902-4566-9ee4-0bff072cd47e/a3e9deee-1b9d-4545-a3c9-71b211642b5b"
+					(reference "J6")
+					(unit 1)
 				)
 			)
 		)
@@ -3345,129 +3386,6 @@
 			(project "Noise Toaster PCB"
 				(path "/7be3f398-d902-4566-9ee4-0bff072cd47e/a3e9deee-1b9d-4545-a3c9-71b211642b5b"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 127 92.71 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7f44f6c1-fb5a-41a1-a27f-6f98c1469991")
-		(property "Reference" "J6"
-			(at 127 87.63 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCO"
-			(at 127 83.82 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 127 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 127 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Wert2" "Ramp/Square"
-			(at 127 86.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "X3" "X3"
-			(at 124.46 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "X6" "X6"
-			(at 127 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "X7" "X7"
-			(at 129.54 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2411e90c-3677-4a3d-8f06-176a918197df")
-		)
-		(pin "2"
-			(uuid "0a5cdf4f-74da-466d-82d3-ba6cbf68766e")
-		)
-		(pin "3"
-			(uuid "a202fe9f-5694-4ebd-9e83-e4c0dac498e5")
-		)
-		(instances
-			(project "Noise Toaster PCB"
-				(path "/7be3f398-d902-4566-9ee4-0bff072cd47e/a3e9deee-1b9d-4545-a3c9-71b211642b5b"
-					(reference "J6")
 					(unit 1)
 				)
 			)

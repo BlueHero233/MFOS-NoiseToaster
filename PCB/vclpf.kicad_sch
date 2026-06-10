@@ -1389,12 +1389,6 @@
 		(uuid "30924a5c-444a-40af-a3c7-d1ae9bc694ce")
 	)
 	(junction
-		(at 50.8 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58e21af5-f63e-43e6-b6f9-3fe05ca6971f")
-	)
-	(junction
 		(at 134.62 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1411,6 +1405,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e90d823-9f3b-42b7-877e-af119533b3f9")
+	)
+	(junction
+		(at 57.15 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a21efb52-ad09-492d-8cf8-666fcf6b5cf2")
 	)
 	(junction
 		(at 210.82 114.3)
@@ -1441,12 +1441,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee0f672e-f152-44eb-a3ad-2923fc8f9f47")
-	)
-	(junction
-		(at 57.15 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f28360a8-cc00-4bd7-bb23-4e79c1d764eb")
 	)
 	(junction
 		(at 130.81 127)
@@ -1533,6 +1527,16 @@
 			(type default)
 		)
 		(uuid "2572b28e-59aa-4aa7-8458-873710472891")
+	)
+	(wire
+		(pts
+			(xy 50.8 138.43) (xy 57.15 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f1ae2f-27b4-4c17-8c36-21de260b5067")
 	)
 	(wire
 		(pts
@@ -1796,6 +1800,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 118.11) (xy 196.85 144.78)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "7b006404-0c88-46cd-ab11-d2ebc4ccd41e")
+	)
+	(wire
+		(pts
 			(xy 87.63 38.1) (xy 87.63 72.39)
 		)
 		(stroke
@@ -2026,16 +2040,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 138.43) (xy 50.8 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bff9bd44-bdd7-43c6-8160-7692e1080e05")
-	)
-	(wire
-		(pts
 			(xy 166.37 101.6) (xy 166.37 114.3)
 		)
 		(stroke
@@ -2156,16 +2160,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 118.11) (xy 196.85 144.78)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "f0e6265c-3947-465c-b363-151ef27054ed")
-	)
-	(wire
-		(pts
 			(xy 191.77 138.43) (xy 191.77 114.3)
 		)
 		(stroke
@@ -2183,16 +2177,6 @@
 			(type default)
 		)
 		(uuid "f64990a0-6adf-4a02-8b1b-1c694966e25e")
-	)
-	(wire
-		(pts
-			(xy 50.8 138.43) (xy 57.15 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8b3d5a4-a1b5-468f-bc11-fed67e9edc94")
 	)
 	(wire
 		(pts

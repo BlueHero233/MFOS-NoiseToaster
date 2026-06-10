@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.8,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -528,7 +528,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerber V0.7/",
+      "plot": "Gerber V0.7.1/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -910,7 +910,7 @@
         "uuid": "7be3f398-d902-4566-9ee4-0bff072cd47e"
       }
     ],
-    "used_designators": "Q10",
+    "used_designators": "Q10,J5-6,J8,JP1,H1",
     "variants": []
   },
   "sheets": [

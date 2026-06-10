@@ -541,7 +541,7 @@
 		(at 88.9 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "23a259af-bd49-4fc4-b521-47bfec962277")
+		(uuid "1bf33dd0-91e4-48e3-a269-43cdb0d7e780")
 	)
 	(junction
 		(at 151.13 87.63)
@@ -653,7 +653,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 29.21) (xy 88.9 50.8)
+			(xy 88.9 34.29) (xy 88.9 50.8)
 		)
 		(stroke
 			(width 0)
@@ -693,7 +693,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 29.21) (xy 88.9 29.21)
+			(xy 158.75 34.29) (xy 88.9 34.29)
 		)
 		(stroke
 			(width 0)
@@ -971,7 +971,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 163.83 31.75 180)
+		(at 163.83 34.29 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -979,9 +979,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "37277b23-9559-4bc7-b980-645fa83fc53e")
+		(uuid "3990bf13-3373-4f6b-8451-0ba3d2169cd1")
 		(property "Reference" "J8"
-			(at 165.1 29.21 0)
+			(at 165.1 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -993,7 +993,7 @@
 			)
 		)
 		(property "Value" "VCA"
-			(at 164.338 27.178 0)
+			(at 164.338 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1004,7 +1004,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 163.83 31.75 0)
+			(at 163.83 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1015,7 +1015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 31.75 0)
+			(at 163.83 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1026,7 +1026,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 31.75 0)
+			(at 163.83 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1037,7 +1037,7 @@
 			)
 		)
 		(property "X13" "X13"
-			(at 166.37 31.75 0)
+			(at 166.37 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1047,7 +1047,7 @@
 			)
 		)
 		(property "X12" "X12"
-			(at 166.37 29.21 0)
+			(at 166.37 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1057,10 +1057,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1919f55-e06c-4e9d-bdee-a7e15e0c4ac5")
+			(uuid "bfa04ee6-57bd-450c-90fe-e71ba9025033")
 		)
 		(pin "2"
-			(uuid "2c0e490b-a087-479a-92f9-8581462cad67")
+			(uuid "57bd01e3-95f8-40b7-86d8-fc34f4fcdef7")
 		)
 		(instances
 			(project "Noise Toaster PCB"

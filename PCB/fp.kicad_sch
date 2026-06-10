@@ -226,7 +226,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Battery"
+		(symbol "Device:Battery_Cell"
 			(pin_numbers
 				(hide yes)
 			)
@@ -250,7 +250,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Battery"
+			(property "Value" "Battery_Cell"
 				(at 2.54 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -283,7 +283,7 @@
 					)
 				)
 			)
-			(property "Description" "Multiple-cell battery"
+			(property "Description" "Single-cell battery"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -294,7 +294,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "batt voltage-source cell"
+			(property "Sim.Device" "V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -305,7 +305,40 @@
 					)
 				)
 			)
-			(symbol "Battery_0_1"
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
 				(rectangle
 					(start -2.286 1.778)
 					(end 2.286 1.524)
@@ -318,30 +351,8 @@
 					)
 				)
 				(rectangle
-					(start -2.286 -1.27)
-					(end 2.286 -1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
 					(start -1.524 1.016)
 					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 -2.032)
-					(end 1.524 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -364,31 +375,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.016) (xy 0 -0.762)
+						(xy 0 0.762) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -423,7 +410,7 @@
 					)
 				)
 			)
-			(symbol "Battery_1_1"
+			(symbol "Battery_Cell_1_1"
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
@@ -443,7 +430,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 0 -2.54 90)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -674,6 +661,17 @@
 				)
 			)
 			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1001,6 +999,39 @@
 				)
 			)
 			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "POT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=r0 2=wiper 3=r1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2666,8 +2697,8 @@
 		)
 	)
 	(rectangle
-		(start 20.32 58.42)
-		(end 93.98 104.14)
+		(start 20.32 57.15)
+		(end 93.98 109.22)
 		(stroke
 			(width 0.5)
 			(type dash)
@@ -2700,18 +2731,6 @@
 			(type none)
 		)
 		(uuid "88a4417a-6929-40a0-bac6-4d1a6893ef93")
-	)
-	(rectangle
-		(start 20.32 109.22)
-		(end 93.98 124.46)
-		(stroke
-			(width 0.5)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "8d817021-0595-4b4c-8850-dfa05f649390")
 	)
 	(rectangle
 		(start 20.32 129.54)
@@ -2840,7 +2859,7 @@
 	)
 	(text "VCO - CV Mixer and Expo Converter"
 		(exclude_from_sim no)
-		(at 24.13 101.6 0)
+		(at 23.876 106.934 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2870,17 +2889,6 @@
 			(justify left)
 		)
 		(uuid "ccb39d4a-848c-4b0e-8e7b-74832a79057d")
-	)
-	(text "VCO - Ramp_Square Wave Generator"
-		(exclude_from_sim no)
-		(at 24.13 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d02141ca-a3c2-4e5c-95a8-1686816ef003")
 	)
 	(junction
 		(at 45.72 25.4)
@@ -2998,17 +3006,6 @@
 			(color 255 157 0 1)
 		)
 		(uuid "061e2cbf-0c77-42ad-8926-0005be8fecd2")
-	)
-	(wire
-		(pts
-			(xy 59.69 116.84) (xy 83.82 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "061e8ea4-6c8b-4cd4-9b62-b5fb9c870fb0")
 	)
 	(wire
 		(pts
@@ -3307,7 +3304,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 116.84) (xy 49.53 116.84)
+			(xy 16.51 102.87) (xy 50.8 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3636,7 +3633,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 35.56) (xy 16.51 116.84)
+			(xy 16.51 35.56) (xy 16.51 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4130,7 +4127,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 132.08) (xy 124.46 129.54)
+			(xy 124.46 127) (xy 124.46 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4149,6 +4146,17 @@
 			(color 255 153 0 1)
 		)
 		(uuid "f14a9a16-2b8e-4adc-8bfc-4c897276f05b")
+	)
+	(wire
+		(pts
+			(xy 60.96 102.87) (xy 83.82 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "f331824e-5d94-461c-b428-c4bfab79d941")
 	)
 	(wire
 		(pts
@@ -4194,7 +4202,7 @@
 		(uuid "1090b4fc-bde6-4408-9068-4575265323ab")
 	)
 	(label "B"
-		(at 16.51 72.39 0)
+		(at 16.51 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4402,6 +4410,17 @@
 		)
 		(uuid "02bb665a-5968-4ca3-af74-fa1e5fac2561")
 	)
+	(hierarchical_label "X6"
+		(shape bidirectional)
+		(at 83.82 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "046cb9a7-fe02-4c2d-8fd1-d09f68e8c7ad")
+	)
 	(hierarchical_label "X16"
 		(shape bidirectional)
 		(at 29.21 31.75 180)
@@ -4601,17 +4620,6 @@
 				(justify right)
 			)
 		)
-	)
-	(hierarchical_label "X6"
-		(shape bidirectional)
-		(at 83.82 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8e69cb92-577e-4fe2-a1f7-502b2d947a82")
 	)
 	(hierarchical_label "X12"
 		(shape bidirectional)
@@ -5170,7 +5178,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3cdd2928-2d0d-4179-a978-73f2f052765c")
@@ -5218,7 +5226,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 57.15 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -5251,6 +5259,39 @@
 				(justify left)
 			)
 		)
+		(property "Sim.Device" "R"
+			(at 57.15 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 57.15 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 57.15 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2ab076c3-cc91-4911-b767-5959cb9d2616")
 		)
@@ -5270,13 +5311,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery")
+		(lib_id "Device:Battery_Cell")
 		(at 124.46 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42899654-8878-4f6d-a6aa-e84611e0d3f9")
@@ -5324,7 +5365,40 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single-cell battery"
+			(at 124.46 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 124.46 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 124.46 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
 			(at 124.46 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5357,7 +5431,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "466975ef-aacb-4a53-bd0e-25de61d07a68")
@@ -5405,7 +5479,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
+			(at 35.56 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 35.56 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5519,7 +5604,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 54.61 116.84 0)
+		(at 55.88 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5529,7 +5614,7 @@
 		(dnp no)
 		(uuid "60be4919-ec1a-4c5b-ac36-b65fc6ac58b1")
 		(property "Reference" "S2"
-			(at 52.07 114.3 0)
+			(at 53.34 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5539,7 +5624,7 @@
 			)
 		)
 		(property "Value" "Sync"
-			(at 59.69 114.3 0)
+			(at 60.96 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5549,7 +5634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 116.84 0)
+			(at 55.88 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5560,7 +5645,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 116.84 0)
+			(at 55.88 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5571,7 +5656,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 116.84 0)
+			(at 55.88 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5582,7 +5667,7 @@
 			)
 		)
 		(property "Wert2" " Effect"
-			(at 64.77 114.3 0)
+			(at 66.04 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5698,7 +5783,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6aa43de1-bcfb-4200-b62a-290d2c50ee37")
@@ -5746,7 +5831,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 237.49 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5766,6 +5851,39 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 237.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 237.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 237.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5793,7 +5911,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6abf4075-6421-47d3-b247-250bb015cb52")
@@ -5841,7 +5959,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 39.37 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -5861,6 +5979,39 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 39.37 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 39.37 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 39.37 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5888,7 +6039,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d5aebbd-abe9-460f-b5d0-598f26faaace")
@@ -5936,7 +6087,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 72.39 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5956,6 +6107,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 72.39 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 72.39 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 72.39 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6191,7 +6375,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89006a85-fde5-424b-8244-772c86361074")
@@ -6239,7 +6423,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 251.46 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6259,6 +6443,39 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 251.46 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 251.46 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 251.46 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6606,7 +6823,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7722dd1-4feb-4d4c-8a5e-163f48370f58")
@@ -6654,7 +6871,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 45.72 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6685,6 +6902,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 45.72 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 45.72 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 45.72 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7051,7 +7301,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3f1da3f-83bb-49c6-89f8-c6be9e0adffc")
@@ -7099,7 +7349,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 266.7 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7119,6 +7369,39 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 266.7 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 266.7 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 266.7 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7146,7 +7429,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e495770f-4ab8-439c-ab98-87e0fe53517a")
@@ -7194,7 +7477,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 44.45 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7214,6 +7497,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 44.45 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 44.45 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 44.45 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7404,7 +7720,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "edc79e14-8f51-422a-ad42-c51364acff2c")
@@ -7452,7 +7768,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 246.38 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7473,6 +7789,39 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 246.38 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 246.38 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 246.38 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7500,7 +7849,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fce631c0-da7d-4bb0-8240-e6f41017e412")
@@ -7548,7 +7897,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 78.74 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -7579,6 +7928,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 78.74 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 78.74 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 78.74 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
