@@ -22,27 +22,22 @@ For the front panels, I also created PCB designs, which you can upload to a mani
 The 'src' folder contains additional files which might be helpful.
 
 ## Project Structure
-.  
-│  
-└── MFOS-NoiseToaster/  
-&ensp;&ensp;&ensp;&ensp;│  
-&ensp;&ensp;&ensp;&ensp;├── __'src/'__ &rarr; additional files and images that might be helpful for your own build   
-&ensp;&ensp;&ensp;&ensp;├── __'classic design/'__ &rarr; all files to build the classic Noise Toaster case   
-&ensp;&ensp;&ensp;&ensp;│&ensp;&ensp;&ensp;&ensp;├── __'CAD/'__  
-&ensp;&ensp;&ensp;&ensp;│&ensp;&ensp;&ensp;&ensp;│&ensp;&ensp;&ensp;&ensp;└── '.FCstd' &rarr; FreeCAD files for the build    
-&ensp;&ensp;&ensp;&ensp;│&ensp;&ensp;&ensp;&ensp;└── __'front panel/'__  
-&ensp;&ensp;&ensp;&ensp;│&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;└── KiCAD files for front panel PCB &rarr; .zip this Geber files for the manufacturer   
-&ensp;&ensp;&ensp;&ensp;├── __'PCB/'__   
-&ensp;&ensp;&ensp;&ensp;│&ensp;&ensp;&ensp;&ensp;└── __'Gerber Files/'__ &rarr; .zip this directory for upload to the manufacturer  
-&ensp;&ensp;&ensp;&ensp;│&ensp;&ensp;&ensp;&ensp;│&ensp;&ensp;&ensp;&ensp;└── *.gbr   
-&ensp;&ensp;&ensp;&ensp;│&ensp;&ensp;&ensp;&ensp;└── 'Noise Toaster PCB.kicad_pcb'  
-&ensp;&ensp;&ensp;&ensp;│&ensp;&ensp;&ensp;&ensp;└── ... &rarr; all files for the circuit diagram    
-&ensp;&ensp;&ensp;&ensp;├── __'Bill of Material/'__   
-&ensp;&ensp;&ensp;&ensp;│&ensp;&ensp;&ensp;&ensp;└── 'BoM checklist.md'  
-&ensp;&ensp;&ensp;&ensp;│&ensp;&ensp;&ensp;&ensp;└── 'interactive BoM.html'    
-&ensp;&ensp;&ensp;&ensp;├── README.md  
-&ensp;&ensp;&ensp;&ensp;└── TODO.md  
-&ensp;&ensp;&ensp;&ensp;└── licence.md &rarr; CC-BY-NC-SA  
+MFOS-NoiseToaster/  
+  'src/' additional files and images that might be helpful for your own build   
+  'classic design/'__ &rarr; all files to build the classic Noise Toaster case   
+  'CAD/'
+    '.FCstd' &rarr; FreeCAD files for the build    
+  'front panel/'
+    '.pro' &rarr; KiCAD files for front panel PCB
+  'PCB/'
+    'Gerber' *Generate this folder yourself!* &rarr; .zip this directory for upload to the manufacturer    
+    'Noise Toaster PCB.kicad_pro' &rarr; opening the project file will also open all the subschematics and pcb
+    'bom/' 
+      'BoM checklist.md'  
+      'interactive BOM.html' 
+  'src/'
+  'README.md'
+  'licence.md' &rarr; CC-BY-NC-SA
 
 ## Usefull links and resources
 
